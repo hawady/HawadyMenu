@@ -53,23 +53,23 @@ const defaultMenuData = {
       "id": "pizzas",
       "name": "Pizzas",
       "items": [
-        { "id": "marguerita", "name": "Marguerita", "description": "Tomato sauce and mozzarella cheese", "price": 8.00, "active": true },
-        { "id": "funghi", "name": "Funghi", "description": "Mozzarella, mushrooms, olives", "price": 10.00, "active": true },
-        { "id": "normal", "name": "Normal", "description": "Mozzarella, ham, mushrooms, olives", "price": 10.00, "active": true },
-        { "id": "dindoni", "name": "Dindoni", "description": "Tomato sauce, mozzarella, mushrooms, olives, thyme, Dinde", "price": 12.00, "active": true },
-        { "id": "quattro-fromaggi", "name": "Quattro Fromaggi", "description": "Mozzarella, Roquefort, parmesan, emmental", "price": 11.00, "active": true },
-        { "id": "poivron", "name": "Poivron", "description": "Mozzarella, ham, mushrooms, olives, pepperoni, peppers", "price": 12.00, "active": true },
-        { "id": "verde", "name": "Verde", "description": "Mozzarella, mushrooms, olives, artichokes, thyme, peppers", "price": 11.00, "active": true },
-        { "id": "con-corn", "name": "Con Corn", "description": "Mozzarella, ham, mushrooms, olives, artichoke, corn", "price": 11.00, "active": true },
-        { "id": "con-pollo", "name": "Con Pollo", "description": "Tomato sauce, mozzarella, mushrooms, olives, chicken", "price": 14.00, "active": true },
-        { "id": "sujuk-pizza", "name": "Sujuk Pizza", "description": "Mozzarella, sujuk, mushrooms, tomatoes, olives", "price": 11.00, "active": true },
-        { "id": "pepperoni", "name": "Pepperoni", "description": "Mozzarella, ham, mushrooms, chorizo, olives", "price": 11.00, "active": true },
-        { "id": "speciale", "name": "Speciale", "description": "Mozzarella, ham, mushrooms, olives, pepperoni, hot dog", "price": 12.00, "active": true },
-        { "id": "bacon-pizza", "name": "Bacon", "description": "Mozzarella, bacon, mushrooms, olives", "price": 11.00, "active": true },
-        { "id": "tarantella", "name": "Tarantella", "description": "Mozzarella, ham, olives, pepperoni, tomatoes, onions, parmesan, basilica, virgin oil", "price": 12.00, "active": true },
-        { "id": "vegetable-al-forno", "name": "Vegetable Al Forno", "description": "Mozzarella, mushrooms, melanzane, zucchini, olives, cherry tomatoes, clove of garlic, olive oil, broccoli", "price": 11.00, "active": true },
-        { "id": "capri", "name": "Capri", "description": "Mozzarella, parma ham, mushrooms, olives, artichokes, thyme", "price": 14.00, "active": true },
-        { "id": "ai-frutti-di-mare", "name": "Ai Frutti Di Mare", "description": "Mozzarella, mushrooms, tuna, shrimps, mussels, olives", "price": 16.50, "active": true }
+        { "id": "marguerita", "name": "Marguerita", "description": "Tomato sauce and mozzarella cheese", "sizes": { "M": 8.00, "L": 10.00 }, "active": true },
+        { "id": "funghi", "name": "Funghi", "description": "Mozzarella, mushrooms, olives", "sizes": { "M": 10.00, "L": 12.00 }, "active": true },
+        { "id": "normal", "name": "Normal", "description": "Mozzarella, ham, mushrooms, olives", "sizes": { "M": 10.00, "L": 12.00 }, "active": true },
+        { "id": "dindoni", "name": "Dindoni", "description": "Tomato sauce, mozzarella, mushrooms, olives, thyme, Dinde", "sizes": { "M": 12.00, "L": 14.00 }, "active": true },
+        { "id": "quattro-fromaggi", "name": "Quattro Fromaggi", "description": "Mozzarella, Roquefort, parmesan, emmental", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "poivron", "name": "Poivron", "description": "Mozzarella, ham, mushrooms, olives, pepperoni, peppers", "sizes": { "M": 12.00, "L": 14.00 }, "active": true },
+        { "id": "verde", "name": "Verde", "description": "Mozzarella, mushrooms, olives, artichokes, thyme, peppers", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "con-corn", "name": "Con Corn", "description": "Mozzarella, ham, mushrooms, olives, artichoke, corn", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "con-pollo", "name": "Con Pollo", "description": "Tomato sauce, mozzarella, mushrooms, olives, chicken", "sizes": { "M": 14.00, "L": 16.00 }, "active": true },
+        { "id": "sujuk-pizza", "name": "Sujuk Pizza", "description": "Mozzarella, sujuk, mushrooms, tomatoes, olives", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "pepperoni", "name": "Pepperoni", "description": "Mozzarella, ham, mushrooms, chorizo, olives", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "speciale", "name": "Speciale", "description": "Mozzarella, ham, mushrooms, olives, pepperoni, hot dog", "sizes": { "M": 12.00, "L": 14.00 }, "active": true },
+        { "id": "bacon-pizza", "name": "Bacon", "description": "Mozzarella, bacon, mushrooms, olives", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "tarantella", "name": "Tarantella", "description": "Mozzarella, ham, olives, pepperoni, tomatoes, onions, parmesan, basilica, virgin oil", "sizes": { "M": 12.00, "L": 14.00 }, "active": true },
+        { "id": "vegetable-al-forno", "name": "Vegetable Al Forno", "description": "Mozzarella, mushrooms, melanzane, zucchini, olives, cherry tomatoes, clove of garlic, olive oil, broccoli", "sizes": { "M": 11.00, "L": 13.00 }, "active": true },
+        { "id": "capri", "name": "Capri", "description": "Mozzarella, parma ham, mushrooms, olives, artichokes, thyme", "sizes": { "M": 14.00, "L": 16.00 }, "active": true },
+        { "id": "ai-frutti-di-mare", "name": "Ai Frutti Di Mare", "description": "Mozzarella, mushrooms, tuna, shrimps, mussels, olives", "sizes": { "M": 16.50, "L": 19.00 }, "active": true }
       ]
     },
     {
@@ -154,6 +154,29 @@ const defaultMenuData = {
         { "id": "local-beer", "name": "Local Beer", "description": "", "price": 4.00, "active": true },
         { "id": "espresso", "name": "Espresso", "description": "", "price": 3.00, "active": true },
         { "id": "arak-glass", "name": "Arak (Glass)", "description": "", "price": 2.00, "active": true }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "name": "Cocktails",
+      "items": [
+        { "id": "lemonade", "name": "Lemonade", "description": "", "sizes": { "S": 3.00, "M": 4.00, "L": 5.00 }, "active": true },
+        { "id": "minted-lemonade", "name": "Minted Lemonade", "description": "", "sizes": { "S": 3.00, "M": 4.00, "L": 5.00 }, "active": true },
+        { "id": "orange", "name": "Orange", "description": "", "sizes": { "S": 3.00, "M": 4.00, "L": 5.00 }, "active": true },
+        { "id": "carrot", "name": "Carrot", "description": "", "sizes": { "S": 3.00, "M": 4.00, "L": 5.00 }, "active": true },
+        { "id": "lemon-ginger", "name": "Lemon/Ginger", "description": "", "sizes": { "S": 4.00, "M": 5.00, "L": 7.00 }, "active": true },
+        { "id": "jellab", "name": "Jellab", "description": "", "sizes": { "S": 5.00, "M": 6.00, "L": 7.00 }, "active": true },
+        { "id": "bananalatte", "name": "Bananalatte", "description": "", "sizes": { "S": 5.00, "M": 6.00, "L": 7.00 }, "active": true },
+        { "id": "melon", "name": "Melon", "description": "", "sizes": { "S": 5.00, "M": 6.00, "L": 7.00 }, "active": true },
+        { "id": "frulatte", "name": "Frulatte (Strawberry, Banana Milk)", "description": "", "sizes": { "S": 6.00, "M": 7.50, "L": 9.00 }, "active": true },
+        { "id": "strawberry", "name": "Strawberry", "description": "", "sizes": { "S": 5.00, "M": 6.00, "L": 7.00 }, "active": true },
+        { "id": "avocado-strawberry", "name": "Avocado / Strawberry", "description": "", "sizes": { "S": 6.00, "M": 8.00, "L": 10.00 }, "active": true },
+        { "id": "pineapple", "name": "Pineapple", "description": "", "sizes": { "S": 7.00, "M": 9.00, "L": 11.00 }, "active": true },
+        { "id": "mango-strawberry", "name": "Mango/Strawberry", "description": "", "sizes": { "S": 6.00, "M": 8.00, "L": 10.00 }, "active": true },
+        { "id": "mango", "name": "Mango", "description": "", "sizes": { "S": 8.00, "M": 10.00, "L": 12.00 }, "active": true },
+        { "id": "chocolatte", "name": "Chocolatte (Avocado with Chocolate)", "description": "", "sizes": { "S": 8.00, "M": 10.00, "L": 12.00 }, "active": true },
+        { "id": "avocado", "name": "Avocado", "description": "", "sizes": { "S": 8.00, "M": 10.00, "L": 12.00 }, "active": true },
+        { "id": "fruit-slices", "name": "Fruit Slices (Tranches de Fruits)", "description": "", "sizes": { "S": 7.00, "M": 9.00, "L": 11.00 }, "active": true }
       ]
     }
   ]
